@@ -5,19 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2026df38-69dc-4a1c-b446-22b844e8a572" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tools/redstone/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/Displayable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/GreetCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/Parsable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/TokenReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/exceptions/InvalidOptionNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/exceptions/MarshalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/exceptions/ParseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/helpers/IntegerHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/helpers/OptionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/options/FlagOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/options/Option.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/options/ValueOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/parsers/AnyOfParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/parsers/BooleanParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/parsers/DigitParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/parsers/IntegerParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/parsers/OneOrMoreParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/parsers/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/parsers/SignParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/tokens/ExactCharacterTokenParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/tokens/ExactStringTokenParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/redstone/marshal/tokens/TokenParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tools/redstone/marshal/helpers/IntegerHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tools/redstone/marshal/helpers/OptionHelperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +50,27 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="marshal" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,7 +78,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2QWeUj3SKLdbEGsPHgLrFhPlSCP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,17 +89,31 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.19885057"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="tools.redstone" />
-    </key>
+  <component name="RunManager">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tools.redstone.marshal.Program" />
+      <module name="marshal.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tools.redstone.marshal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,5 +125,22 @@
       <updated>1685473783005</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/marshal$marshal__test_.ic" NAME="marshal [test] Coverage Results" MODIFIED="1685478870670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/marshal$Program.ic" NAME="Program Coverage Results" MODIFIED="1685744895343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tools.redstone.marshal.*</FILTER>
+    </SUITE>
   </component>
 </project>
